@@ -8,5 +8,6 @@ public class Main {
         ConsoleMenu consoleMenu = new ConsoleMenu();
         consoleMenu.startMenu();
         System.out.println(Path.of("resources", "processed-transport.txt").toAbsolutePath());
+
     }
 }
