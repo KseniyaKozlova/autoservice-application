@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TransportComparatorTest {
 
     @Test
-    void compare() {
+    void testCompare_successful() {
         final List<SortChoice> sortingRequirements = new ArrayList<>();
         sortingRequirements.add(new SortChoice(SortType.MODEL, Direction.ASC));
 

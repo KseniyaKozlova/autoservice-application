@@ -1,6 +1,7 @@
 package by.autodiagnostic.writer.impl;
 
 import by.autodiagnostic.transport.Transport;
+import by.autodiagnostic.writer.FileCreator;
 import by.autodiagnostic.writer.TransportWriter;
 import by.autodiagnostic.writer.TransportWriterException;
 import org.json.JSONArray;
@@ -19,13 +20,14 @@ public class TransportJSONWriter implements TransportWriter {
     private static final Predicate<String> RIGHT_MODEL_PATTERN =
             Pattern.compile("^[a-zA-Z][a-zA-Z0-9-\\s]+[0-9]|[a-zA-Z]$").asMatchPredicate();
 
+    private final FileCreator fileCreator;
     private final File processedTransportPath;
     private final File invalidTransportPath;
     private final File readPath;
     private final Charset encoding;
 
-    public TransportJSONWriter(final File processedTransportPath, final File invalidTransportPath,
-                               final File readPath, final Charset encoding) {
+    public TransportJSONWriter(FileCreator fileCreator, File processedTransportPath, File invalidTransportPath, File readPath, Charset encoding) {
+        this.fileCreator = fileCreator;
         this.processedTransportPath = processedTransportPath;
         this.invalidTransportPath = invalidTransportPath;
         this.readPath = readPath;
@@ -35,7 +37,7 @@ public class TransportJSONWriter implements TransportWriter {
     @Override
     public void writeFile(final List<Transport> transportList, final Comparator<Transport> transportComparator)
             throws TransportWriterException {
-        try (final FileWriter processedTransportWriter = new FileWriter(processedTransportPath, encoding)) {
+        try (final FileWriter processedTransportWriter = fileCreator.createFile(processedTransportPath, encoding)) {
             final List<Transport> rightTransportList = haveRightTransport(transportList);
             rightTransportList.sort(transportComparator);
 
@@ -46,7 +48,7 @@ public class TransportJSONWriter implements TransportWriter {
             }
             processedTransportWriter.write(automobileArray.toString(1));
         } catch (final IOException e) {
-            throw new TransportWriterException("Problem with file reading", e);
+            throw new TransportWriterException("Problem with file", e);
         }
     }
 

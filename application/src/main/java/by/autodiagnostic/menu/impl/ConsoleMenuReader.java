@@ -3,12 +3,12 @@ package by.autodiagnostic.menu.impl;
 import by.autodiagnostic.distribution.Direction;
 import by.autodiagnostic.distribution.SortChoice;
 import by.autodiagnostic.distribution.SortType;
+import by.autodiagnostic.menu.ConsoleInput;
 import by.autodiagnostic.menu.MenuReader;
 import by.autodiagnostic.menu.MenuReaderException;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class ConsoleMenuReader implements MenuReader {
 
@@ -24,7 +24,11 @@ public class ConsoleMenuReader implements MenuReader {
             stop - write file;
             """;
 
-    private final Scanner scanner = new Scanner(System.in);
+    private final ConsoleInput consoleInput;
+
+    public ConsoleMenuReader(ConsoleInput consoleInput) {
+        this.consoleInput = consoleInput;
+    }
 
     @Override
     public List<SortChoice> readChoice() throws MenuReaderException {
@@ -33,7 +37,7 @@ public class ConsoleMenuReader implements MenuReader {
 
             while (true) {
                 System.out.println(MENU);
-                String step = scanner.nextLine();
+                String step = consoleInput.readLine();
 
                 if (step.equals("stop")) {
                     System.out.println("The program is ending...");

@@ -4,7 +4,6 @@ import by.autodiagnostic.parser.Parser;
 import by.autodiagnostic.parser.ParserException;
 import by.autodiagnostic.reader.TransportReader;
 import by.autodiagnostic.reader.TransportReaderException;
-import by.autodiagnostic.transport.CategoryException;
 import by.autodiagnostic.transport.Transport;
 
 import java.io.File;
@@ -30,7 +29,7 @@ public class TransportJSONReader implements TransportReader {
         try {
             final String text = Files.readString(fileName.toPath(), charset);
             return parser.parse(text);
-        } catch (final IOException | CategoryException | ParserException e) {
+        } catch (final IOException | ParserException e) {
             throw new TransportReaderException("Problem with file reading", e);
         }
     }

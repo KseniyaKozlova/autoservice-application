@@ -25,9 +25,9 @@ public class TransportComparator implements Comparator<Transport> {
             final boolean isDescending = direction.equalsIgnoreCase(Direction.DSC.name());
 
             if (isAscending) {
-                currentValue = sort.getComparingResult(transport1, transport2);
+                currentValue = sort.getComparator().compare(transport1, transport2);
             } else if (isDescending) {
-                currentValue = sort.getComparingResult(transport2, transport1);
+                currentValue = sort.getComparator().compare(transport2, transport1);
             }
 
             if (currentValue != 0) {

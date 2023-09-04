@@ -5,6 +5,11 @@
   "cost": "10"
  },
  {
+  "type": "автомобиль",
+  "model": "Audi Q7",
+  "cost": "20"
+ },
+ {
   "type": "микроавтобус",
   "model": "Sprinter264",
   "cost": "30"
@@ -13,11 +18,6 @@
   "type": "микроавтобус",
   "model": "Transporter T5",
   "cost": "30"
- },
- {
-  "type": "автомобиль",
-  "model": "Audi Q7",
-  "cost": "20"
  },
  {
   "type": "автомобиль",

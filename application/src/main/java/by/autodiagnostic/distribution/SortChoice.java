@@ -1,5 +1,7 @@
 package by.autodiagnostic.distribution;
 
+import java.util.Objects;
+
 public class SortChoice {
 
     private final SortType sortType;
@@ -16,5 +18,22 @@ public class SortChoice {
 
     public Direction getDirection() {
         return direction;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        } else if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        SortChoice that = (SortChoice) o;
+        return sortType == that.sortType && direction == that.direction;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(sortType, direction);
     }
 }

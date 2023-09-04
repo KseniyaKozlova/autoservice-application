@@ -31,9 +31,13 @@ public class Transport {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Transport transport = (Transport) o;
+        if (this == o) {
+            return true;
+        } else if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+
+        final Transport transport = (Transport) o;
         return category == transport.category && Objects.equals(model, transport.model);
     }
 

@@ -2,21 +2,21 @@ package by.autodiagnostic.distribution;
 
 import by.autodiagnostic.transport.Transport;
 
-import java.util.function.BiFunction;
+import java.util.Comparator;
 
 public enum SortType {
 
-    TYPE((transport1, transport2) -> transport1.getType().compareTo(transport2.getType())),
-    MODEL(((transport1, transport2) -> transport1.getModel().compareTo(transport2.getModel()))),
-    COST(((transport1, transport2) -> transport1.getPrice().compareTo(transport2.getPrice())));
+    TYPE(Comparator.comparing(Transport::getType)),
+    MODEL(Comparator.comparing(Transport::getModel)),
+    COST(Comparator.comparingInt(Transport::getPrice));
 
-    private final BiFunction<Transport, Transport, Integer> compareTransport;
+    private final Comparator<Transport> comparator;
 
-    SortType(final BiFunction<Transport, Transport, Integer> compareTransport) {
-        this.compareTransport = compareTransport;
+    SortType(final Comparator<Transport> comparator) {
+        this.comparator = comparator;
     }
 
-    public Integer getComparingResult(final Transport transport1, final Transport transport2) {
-        return compareTransport.apply(transport1, transport2);
+    public Comparator<Transport> getComparator() {
+        return comparator;
     }
 }
