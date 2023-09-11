@@ -26,7 +26,7 @@ public class ConsoleMenuReader implements MenuReader {
 
     private final ConsoleInput consoleInput;
 
-    public ConsoleMenuReader(ConsoleInput consoleInput) {
+    public ConsoleMenuReader(final ConsoleInput consoleInput) {
         this.consoleInput = consoleInput;
     }
 
@@ -37,7 +37,7 @@ public class ConsoleMenuReader implements MenuReader {
 
             while (true) {
                 System.out.println(MENU);
-                String step = consoleInput.readLine();
+                final String step = consoleInput.readLine();
 
                 if (step.equals("stop")) {
                     System.out.println("The program is ending...");

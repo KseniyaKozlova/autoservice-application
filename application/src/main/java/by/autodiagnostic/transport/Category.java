@@ -1,5 +1,7 @@
 package by.autodiagnostic.transport;
 
+import by.autodiagnostic.annotation.JSONField;
+
 import java.util.Arrays;
 import java.util.Map;
 import java.util.function.Function;
@@ -13,7 +15,9 @@ public enum Category {
 
     private static final Map<String, Category> CATEGORY_MAP = Arrays.stream(Category.values())
             .collect(Collectors.toMap(translation -> translation.title, Function.identity()));
+    @JSONField(name = "type")
     private final String title;
+    @JSONField(name = "cost", isExtraField = true)
     private final Integer cost;
 
 

@@ -21,14 +21,14 @@ public class SortChoice {
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(final Object o) {
         if (this == o) {
             return true;
         } else if (o == null || getClass() != o.getClass()) {
             return false;
         }
 
-        SortChoice that = (SortChoice) o;
+        final SortChoice that = (SortChoice) o;
         return sortType == that.sortType && direction == that.direction;
     }
 

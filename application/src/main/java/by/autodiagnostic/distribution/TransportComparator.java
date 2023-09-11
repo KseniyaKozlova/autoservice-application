@@ -16,22 +16,19 @@ public class TransportComparator implements Comparator<Transport> {
     @Override
     public int compare(final Transport transport1, final Transport transport2) {
         int value = 0;
+
         for (final SortChoice requirement : sortingRequirements) {
-            int currentValue = 0;
             final SortType sort = requirement.getSortType();
-
             final String direction = requirement.getDirection().name();
-            final boolean isAscending = direction.equalsIgnoreCase(Direction.ASC.name());
-            final boolean isDescending = direction.equalsIgnoreCase(Direction.DSC.name());
 
-            if (isAscending) {
-                currentValue = sort.getComparator().compare(transport1, transport2);
-            } else if (isDescending) {
-                currentValue = sort.getComparator().compare(transport2, transport1);
+            Comparator<Transport> transportComparator = sort.getComparator();
+
+            if (direction.equalsIgnoreCase(Direction.DSC.name())) {
+                transportComparator = transportComparator.reversed();
             }
+            value = transportComparator.compare(transport1, transport2);
 
-            if (currentValue != 0) {
-                value = currentValue;
+            if (value != 0) {
                 break;
             }
         }

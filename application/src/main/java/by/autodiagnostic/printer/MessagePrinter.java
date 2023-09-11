@@ -4,5 +4,5 @@ import java.io.File;
 
 public interface MessagePrinter {
 
-    void print(File fileToPrint);
+    void print(final File fileToPrint);
 }

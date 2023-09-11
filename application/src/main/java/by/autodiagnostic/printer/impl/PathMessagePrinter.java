@@ -7,7 +7,7 @@ import java.io.File;
 public class PathMessagePrinter implements MessagePrinter {
 
     @Override
-    public void print(File fileToPrint) {
+    public void print(final File fileToPrint) {
         System.out.print(fileToPrint.toPath().toAbsolutePath());
     }
 }

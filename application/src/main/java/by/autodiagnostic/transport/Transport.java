@@ -1,15 +1,25 @@
 package by.autodiagnostic.transport;
 
+import by.autodiagnostic.annotation.JSONProperty;
+import by.autodiagnostic.annotation.PatternValidator;
+
 import java.util.Objects;
 
 public class Transport {
 
-    private final Category category;
-    private final String model;
+    @JSONProperty(fieldName = "type")
+    private Category category;
+
+    @PatternValidator(pattern = "^[a-zA-Z][a-zA-Z0-9-\\s]+[0-9]|[a-zA-Z]$")
+    @JSONProperty(fieldName = "model")
+    private String model;
 
     public Transport(final Category category, final String model) {
         this.category = category;
         this.model = model;
+    }
+
+    public Transport() {
     }
 
     public String getType() {
@@ -26,11 +36,11 @@ public class Transport {
 
     @Override
     public String toString() {
-        return category.getTitle() + ", " + model;
+        return category + ", " + model;
     }
 
     @Override
-    public boolean equals(Object o) {
+    public boolean equals(final Object o) {
         if (this == o) {
             return true;
         } else if (o == null || getClass() != o.getClass()) {

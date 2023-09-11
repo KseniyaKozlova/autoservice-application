@@ -16,12 +16,13 @@ class ConsoleMenuReaderTest {
     @Test
     void readChoiceTest_successful() throws MenuReaderException {
         final String testInput = "type, asc";
+        final String stopSorting = "stop";
 
         final SortChoice sortChoice = new SortChoice(SortType.TYPE, Direction.ASC);
         final var actualRequirements = List.of(sortChoice);
 
         final var mockInput = Mockito.mock(ConsoleInput.class);
-        Mockito.when(mockInput.readLine()).thenReturn(testInput).thenReturn("stop");
+        Mockito.when(mockInput.readLine()).thenReturn(testInput).thenReturn(stopSorting);
 
         final var consoleMenuReader = new ConsoleMenuReader(mockInput);
         final var expectedRequirements = consoleMenuReader.readChoice();

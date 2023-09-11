@@ -12,9 +12,9 @@ import by.autodiagnostic.printer.MessagePrinter;
 import by.autodiagnostic.printer.impl.PathMessagePrinter;
 import by.autodiagnostic.reader.TransportReader;
 import by.autodiagnostic.reader.impl.TransportJSONReader;
-import by.autodiagnostic.writer.FileCreator;
+import by.autodiagnostic.validation.FieldValidator;
+import by.autodiagnostic.validation.impl.TransportFieldValidator;
 import by.autodiagnostic.writer.TransportWriter;
-import by.autodiagnostic.writer.impl.ProcessedFileCreator;
 import by.autodiagnostic.writer.impl.TransportJSONWriter;
 
 import java.io.File;
@@ -41,15 +41,13 @@ public class TransportService {
             final MenuReader menuReader = new ConsoleMenuReader(consoleInput);
             final List<SortChoice> requirements = menuReader.readChoice();
 
-            final FileCreator fileCreator = new ProcessedFileCreator();
-            final TransportWriter transportWriter = new TransportJSONWriter(fileCreator, PROCESSED_TRANSPORT_FILE,
-                    INVALID_TRANSPORT_FILE, READ_TRANSPORT_FILE, CHARSET);
+            final FieldValidator fieldValidator = new TransportFieldValidator();
+            final TransportWriter transportWriter = new TransportJSONWriter(fieldValidator, PROCESSED_TRANSPORT_FILE,
+                    INVALID_TRANSPORT_FILE, CHARSET);
             transportWriter.writeFile(transports, new TransportComparator(requirements));
 
             final MessagePrinter messagePrinter = new PathMessagePrinter();
             messagePrinter.print(PROCESSED_TRANSPORT_FILE);
-
-            transports.forEach(System.out::println);
         } catch (final Exception e) {
             e.printStackTrace();
         }
