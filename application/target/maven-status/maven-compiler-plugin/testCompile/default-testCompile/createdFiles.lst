@@ -1,7 +1,0 @@
-by\autodiagnostic\reader\impl\TransportJSONReaderTest.class
-by\autodiagnostic\menu\impl\ConsoleMenuReaderTest.class
-by\autodiagnostic\validation\TransportFieldValidatorTest.class
-by\autodiagnostic\transport\CategoryTest.class
-by\autodiagnostic\parser\impl\JSONParserTest.class
-by\autodiagnostic\distribution\TransportComparatorTest.class
-by\autodiagnostic\writer\impl\TransportJSONWriterTest.class
