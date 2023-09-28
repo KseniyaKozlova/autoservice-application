@@ -18,18 +18,18 @@ import java.util.List;
 public class JSONParser implements Parser {
 
     @Override
-    public List<Transport> parse(final String initialValue) throws ParserException {
-        final List<Transport> transportList = new ArrayList<>();
+    public <T> List<T> parse(final String initialValue, final Class<T> clazz) throws ParserException {  //TESTS!!!
+        final List<T> objectList = new ArrayList<>();
         final JSONArray jsonArray = new JSONArray(initialValue);
 
         try {
             for (final Object object : jsonArray) {
                 final JSONObject transportJson = (JSONObject) object;
 
-                final Transport resultInstance = parseFromJSON(transportJson, Transport.class);
-                transportList.add(resultInstance);
+                final T resultInstance = parseFromJSON(transportJson, clazz);
+                objectList.add(resultInstance);
             }
-            return transportList;
+            return objectList;
         } catch (final JSONException e) {
             throw new ParserException("Can't parse file", e);
         } catch (final IllegalAccessException e) {
@@ -39,7 +39,7 @@ public class JSONParser implements Parser {
         }
     }
 
-    private <T> T parseFromJSON(final JSONObject jsonObject, final Class<T> clazz)
+    private static  <T> T parseFromJSON(final JSONObject jsonObject, final Class<T> clazz)
             throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         final T resultInstance = clazz.getDeclaredConstructor().newInstance();
 
@@ -69,7 +69,7 @@ public class JSONParser implements Parser {
         return resultInstance;
     }
 
-    private <T> Object createResultObject(final String methodName, final Class<T> clazz, final Object value)
+    private static  <T> Object createResultObject(final String methodName, final Class<T> clazz, final Object value)
             throws InvocationTargetException, IllegalAccessException {
         Object resultObject = null;
 

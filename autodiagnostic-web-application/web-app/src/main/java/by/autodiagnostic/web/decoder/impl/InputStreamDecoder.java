@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 import java.net.URLDecoder;
 
-import static by.autodiagnostic.util.StandartConstants.CHARSET;
+import static by.autodiagnostic.util.StandardConstants.CHARSET;
 
 public class InputStreamDecoder implements Decoder {
 

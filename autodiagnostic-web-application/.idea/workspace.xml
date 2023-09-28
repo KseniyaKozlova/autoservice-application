@@ -5,50 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b16acc-6c08-4deb-83b6-6f6a7e1a3600" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ren/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/annotation/JSONProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/TransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/TransportService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/writer/impl/TransportJSONWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/writer/impl/TransportJSONWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/distribution/TransportComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/distribution/TransportComparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/parser/impl/JSONParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/parser/impl/JSONParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/transport/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/transport/CategoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/validation/TransportFieldValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/validation/TransportFieldValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/writer/impl/TransportJSONWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/writer/impl/TransportJSONWriterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/src/test/resources/transport-read.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/annotation/JSONProperty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/Transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/Transport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/TransportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/TransportService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/writer/impl/TransportJSONWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/writer/impl/TransportJSONWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/invalid transport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/classes/processed-transport.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/distribution/TransportComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/distribution/TransportComparatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/parser/impl/JSONParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/parser/impl/JSONParserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/writer/impl/TransportJSONWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/writer/impl/TransportJSONWriterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/choice/ChoiceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/choice/ChoiceReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/choice/ChoiceReaderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/choice/ChoiceReaderException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/choice/impl/InputChoiceReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/choice/impl/InputChoiceReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/by/autodiagnostic/choice/impl/InputChoiceReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/by/autodiagnostic/choice/impl/InputChoiceReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/TransportServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/TransportServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/autodiagnostic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autodiagnostic/.idea/autodiagnostic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/src/main/java/by/itacademy/JdbcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/src/test/java/by/itacademy/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-maven-application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-maven-application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/reader/impl/TransportJSONReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/reader/impl/TransportJSONReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/util/StandartConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/by/autodiagnostic/util/StandardConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/by/autodiagnostic/menu/ChoiceReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/by/autodiagnostic/menu/ChoiceReaderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/by/autodiagnostic/menu/impl/InputChoiceReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/by/autodiagnostic/menu/impl/InputChoiceReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/by/autodiagnostic/reader/impl/TransportJSONReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/test-classes/by/autodiagnostic/reader/impl/TransportJSONReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/model/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/TransportServletJSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/TransportServletJSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/service/impl/ServletTransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/by/autodiagnostic/web/service/impl/ServletTransportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/TransportServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/TransportServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/service/impl/ServletTransportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/service/impl/ServletTransportService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/writer/impl/ServletTransportWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/target/classes/by/autodiagnostic/web/writer/impl/ServletTransportWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +90,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Козлова Ксения/ITAcademy/autodiagnostic-web-application/core/src/main/java/by/autodiagnostic",
+    "last_opened_file_path": "C:/Users/Козлова Ксения/ITAcademy/autodiagnostic-maven-application",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",

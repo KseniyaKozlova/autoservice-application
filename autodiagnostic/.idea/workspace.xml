@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc5f24d6-c9b3-4172-b7d7-9f122f408fbe" name="Changes" comment="new commit">
-      <change beforePath="$PROJECT_DIR$/src/autodiagnostic/console/ConsoleReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/autodiagnostic/console/ConsoleReaderException.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/src/main/java/by/itacademy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-application/src/test/java/by/itacademy/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/reader/impl/TransportJSONReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/reader/impl/TransportJSONReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/util/StandartConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/core/src/main/java/by/autodiagnostic/util/StandardConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/classes/by/autodiagnostic/menu/ChoiceReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/classes/by/autodiagnostic/menu/ChoiceReaderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/classes/by/autodiagnostic/menu/impl/InputChoiceReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/test-classes/by/autodiagnostic/menu/impl/InputChoiceReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/test-classes/by/autodiagnostic/reader/impl/TransportJSONReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/test-classes/by/autodiagnostic/reader/impl/TransportJSONReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/core/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/model/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/model/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/java/by/autodiagnostic/web/TransportServletJSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/java/by/autodiagnostic/web/TransportServletJSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/java/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/java/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/java/by/autodiagnostic/web/service/impl/ServletTransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/java/by/autodiagnostic/web/service/impl/ServletTransportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/TransportServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/TransportServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/decoder/impl/InputStreamDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/service/impl/ServletTransportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/service/impl/ServletTransportService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/writer/impl/ServletTransportWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/target/classes/by/autodiagnostic/web/writer/impl/ServletTransportWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,16 +56,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Козлова Ксения/application&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Козлова Ксения/ITAcademy/autodiagnostic-web-application",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="AutodiagnosticApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="autodiagnostic.AutodiagnosticApplication" />

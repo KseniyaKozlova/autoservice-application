@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface Parser {
 
-    List<Transport> parse(String initialValue) throws ParserException;
+    <T> List<T> parse(String initialValue, Class<T> clazz) throws ParserException;
 }

@@ -25,22 +25,20 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static by.autodiagnostic.util.StandartConstants.CHARSET;
+import static by.autodiagnostic.util.StandardConstants.CHARSET;
 
 public class TransportServletJSP extends HttpServlet {
 
+    private static final Parser PARSER = new JSONParser();
+
     @Override
     protected void doPost(final HttpServletRequest request, final HttpServletResponse response) throws IOException, ServletException {
-        final Parser parser = new JSONParser();
         final Decoder decoder = new InputStreamDecoder(request); //for not postman request
-        final TransportReader transportReader = new TransportJSONReader(decoder.getDecodedStream(), parser);
+        final TransportReader transportReader = new TransportJSONReader(request.getInputStream(), PARSER);
 
         final FieldValidator fieldValidator = new TransportFieldValidator();
         final List<Transport> processedTransportList = new ArrayList<>();
         final List<Transport> invalidTransportList = new ArrayList<>();
-
-        response.setContentType("text/html");
-        response.setCharacterEncoding(CHARSET.name());
 
         try {
             final List<Transport> transportList = transportReader.readTransport();
@@ -67,9 +65,12 @@ public class TransportServletJSP extends HttpServlet {
         request.setAttribute("invalidList", invalidTransportList);
 
         request.getRequestDispatcher("/table.jsp").forward(request, response);
+
+        response.setContentType("text/html");
+        response.setCharacterEncoding(CHARSET.name());
     }
 
-    private void sortList(final List<Transport> transportList, final String sorting) throws ChoiceReaderException {
+    private static void sortList(final List<Transport> transportList, final String sorting) throws ChoiceReaderException {
         final ChoiceReader choiceReader = new InputChoiceReader();
         final List<SortChoice> sortChoiceList = choiceReader.readChoice(sorting);
 

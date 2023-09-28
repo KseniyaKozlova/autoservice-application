@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-import static by.autodiagnostic.util.StandartConstants.CHARSET;
+import static by.autodiagnostic.util.StandardConstants.CHARSET;
 
 public class ServletTransportService implements TransportService {
 
