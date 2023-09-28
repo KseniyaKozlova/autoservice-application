@@ -1,7 +1,0 @@
-by\autodiagnostic\web\service\TransportService.class
-by\autodiagnostic\web\service\impl\ServletTransportService.class
-by\autodiagnostic\web\writer\ServletWriter.class
-by\autodiagnostic\web\decoder\impl\InputStreamDecoder.class
-by\autodiagnostic\web\TransportServlet.class
-by\autodiagnostic\web\decoder\Decoder.class
-by\autodiagnostic\web\writer\impl\ServletTransportWriter.class

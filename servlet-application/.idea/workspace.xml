@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e7f8d3d-f3c1-4a1b-9068-cfd9d9e99745" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../autodiagnostic-web-application/web-app/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/annotation/JSONProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/parser/impl/JSONParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/TransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/transport/TransportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/writer/impl/TransportJSONWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/main/java/by/autodiagnostic/writer/impl/TransportJSONWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/distribution/TransportComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/distribution/TransportComparatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/parser/impl/JSONParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/parser/impl/JSONParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/transport/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/transport/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/validation/TransportFieldValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/validation/TransportFieldValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/writer/impl/TransportJSONWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../application/src/test/java/by/autodiagnostic/writer/impl/TransportJSONWriterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/src/test/resources/transport-read.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/annotation/JSONProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/parser/impl/JSONParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/Transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/Transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/TransportService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/transport/TransportService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/writer/impl/TransportJSONWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/classes/by/autodiagnostic/writer/impl/TransportJSONWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/invalid transport.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/classes/processed-transport.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/distribution/TransportComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/distribution/TransportComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/parser/impl/JSONParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/parser/impl/JSONParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/transport/CategoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/validation/TransportFieldValidatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/writer/impl/TransportJSONWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../application/target/test-classes/by/autodiagnostic/writer/impl/TransportJSONWriterTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VIVBspyXUx1mjWKyx746snfec3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Козлова Ксения/ITAcademy/servlet-application&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="itacademy.servlet" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\Козлова Ксения\.SmartTomcat\servlet-application\servlet-application" />
+      <option name="contextPath" value="/servlet-application" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.80 (2)" />
+          <option name="path" value="$PROJECT_DIR$/../../../../Java_Tools/apache-tomcat-9.0.80" />
+          <option name="version" value="9.0.80.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="servlet-application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e7f8d3d-f3c1-4a1b-9068-cfd9d9e99745" name="Changes" comment="" />
+      <created>1694523450501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694523450501</updated>
+    </task>
+    <servers />
+  </component>
+</project>
